@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.pointer img{
+    cursor:pointer;
+}
+#menu{
+    background-color:#DAF7A6;
+}
+#menu a{
+    font-size:18px;
+}
+h1 {
+    font-weight: 500;
+}
+h2, h3{
+    font-weight: 400;
+}
+.bi {
+    font-size: 40px;
+    color:#000;
+}
+#info .bi{
+    font-size:30px;
+}
+#info a{
+    color:red;
+    text-decoration:none;
+}
+
+#currency p{
+    font-size: 25px;
+}
+#footer small, #footer a {
+    color:#fff;
+}
+#footer a {
+    text-decoration: none;
+}
+.bg-bisque {
+    background-color: bisque;
+}
+#file {
+    padding:10px;
+}
+@media(max-width:768px) {
+   #topHeader .text-white{
+    font-size:14px;
+   }
+  .padding {
+    padding:10px;
+  }
+  iframe{
+    width:300px;
+  }
+}
